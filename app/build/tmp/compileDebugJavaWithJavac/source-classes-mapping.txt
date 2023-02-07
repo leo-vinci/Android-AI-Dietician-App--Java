@@ -1,0 +1,177 @@
+com/example/diet/androiddieticianapp/AIFood/customview/ResultsView.java
+ com.example.diet.androiddieticianapp.AIFood.customview.ResultsView
+com/example/diet/androiddieticianapp/MainActivity.java
+ com.example.diet.androiddieticianapp.MainActivity
+ com.example.diet.androiddieticianapp.MainActivity$1
+ com.example.diet.androiddieticianapp.MainActivity$2
+ com.example.diet.androiddieticianapp.MainActivity$2$1
+ com.example.diet.androiddieticianapp.MainActivity$2$2
+ com.example.diet.androiddieticianapp.MainActivity$3
+ com.example.diet.androiddieticianapp.MainActivity$4
+ com.example.diet.androiddieticianapp.MainActivity$5
+ com.example.diet.androiddieticianapp.MainActivity$6
+com/example/diet/androiddieticianapp/ResponseActivity.java
+ com.example.diet.androiddieticianapp.ResponseActivity
+com/example/diet/androiddieticianapp/UserModify.java
+ com.example.diet.androiddieticianapp.UserModify
+ com.example.diet.androiddieticianapp.UserModify$1
+ com.example.diet.androiddieticianapp.UserModify$1$1
+ com.example.diet.androiddieticianapp.UserModify$1$2
+ com.example.diet.androiddieticianapp.UserModify$2
+ com.example.diet.androiddieticianapp.UserModify$2$1
+ com.example.diet.androiddieticianapp.UserModify$2$2
+ com.example.diet.androiddieticianapp.UserModify$3
+com/example/diet/androiddieticianapp/FoodListAdapter.java
+ com.example.diet.androiddieticianapp.FoodListAdapter
+com/example/diet/androiddieticianapp/ViewItems.java
+ com.example.diet.androiddieticianapp.ViewItems
+ com.example.diet.androiddieticianapp.ViewItems$1
+ com.example.diet.androiddieticianapp.ViewItems$2
+ com.example.diet.androiddieticianapp.ViewItems$2$1
+ com.example.diet.androiddieticianapp.ViewItems$2$2
+ com.example.diet.androiddieticianapp.ViewItems$2$3
+ com.example.diet.androiddieticianapp.ViewItems$3
+ com.example.diet.androiddieticianapp.ViewItems$4
+ com.example.diet.androiddieticianapp.ViewItems$4$1
+ com.example.diet.androiddieticianapp.ViewItems$4$2
+ com.example.diet.androiddieticianapp.ViewItems$4$3
+ com.example.diet.androiddieticianapp.ViewItems$5
+ com.example.diet.androiddieticianapp.ViewItems$6
+ com.example.diet.androiddieticianapp.ViewItems$6$1
+ com.example.diet.androiddieticianapp.ViewItems$6$2
+ com.example.diet.androiddieticianapp.ViewItems$6$3
+com/example/diet/androiddieticianapp/DbHelper.java
+ com.example.diet.androiddieticianapp.DbHelper
+com/example/diet/androiddieticianapp/AdminActivity.java
+ com.example.diet.androiddieticianapp.AdminActivity
+ com.example.diet.androiddieticianapp.AdminActivity$1
+com/example/diet/androiddieticianapp/AIFood/env/BorderedText.java
+ com.example.diet.androiddieticianapp.AIFood.env.BorderedText
+com/example/diet/androiddieticianapp/OverWeight.java
+ com.example.diet.androiddieticianapp.OverWeight
+ com.example.diet.androiddieticianapp.OverWeight$1
+ com.example.diet.androiddieticianapp.OverWeight$2
+com/example/diet/androiddieticianapp/AIFood/env/Logger.java
+ com.example.diet.androiddieticianapp.AIFood.env.Logger
+com/example/diet/androiddieticianapp/AIFood/tracking/MultiBoxTracker.java
+ com.example.diet.androiddieticianapp.AIFood.tracking.MultiBoxTracker
+ com.example.diet.androiddieticianapp.AIFood.tracking.MultiBoxTracker$1
+ com.example.diet.androiddieticianapp.AIFood.tracking.MultiBoxTracker$TrackedRecognition
+com/example/diet/androiddieticianapp/ChangePassword.java
+ com.example.diet.androiddieticianapp.ChangePassword
+ com.example.diet.androiddieticianapp.ChangePassword$1
+com/example/diet/androiddieticianapp/AddFoodActivity.java
+ com.example.diet.androiddieticianapp.AddFoodActivity
+ com.example.diet.androiddieticianapp.AddFoodActivity$1
+ com.example.diet.androiddieticianapp.AddFoodActivity$2
+ com.example.diet.androiddieticianapp.AddFoodActivity$3
+com/example/diet/androiddieticianapp/DieticianActivity.java
+ com.example.diet.androiddieticianapp.DieticianActivity
+com/example/diet/androiddieticianapp/LoginActivity.java
+ com.example.diet.androiddieticianapp.LoginActivity
+ com.example.diet.androiddieticianapp.LoginActivity$1
+ com.example.diet.androiddieticianapp.LoginActivity$2
+ com.example.diet.androiddieticianapp.LoginActivity$3
+com/example/diet/androiddieticianapp/FeedBackActivity.java
+ com.example.diet.androiddieticianapp.FeedBackActivity
+com/example/diet/androiddieticianapp/SendResponse.java
+ com.example.diet.androiddieticianapp.SendResponse
+ com.example.diet.androiddieticianapp.SendResponse$1
+ com.example.diet.androiddieticianapp.SendResponse$2
+com/example/diet/androiddieticianapp/AIFood/CameraActivity.java
+ com.example.diet.androiddieticianapp.AIFood.CameraActivity
+ com.example.diet.androiddieticianapp.AIFood.CameraActivity$1
+ com.example.diet.androiddieticianapp.AIFood.CameraActivity$2
+ com.example.diet.androiddieticianapp.AIFood.CameraActivity$3
+ com.example.diet.androiddieticianapp.AIFood.CameraActivity$4
+ com.example.diet.androiddieticianapp.AIFood.CameraActivity$5
+com/example/diet/androiddieticianapp/AIFood/customview/AutoFitTextureView.java
+ com.example.diet.androiddieticianapp.AIFood.customview.AutoFitTextureView
+com/example/diet/androiddieticianapp/RegisterActivity.java
+ com.example.diet.androiddieticianapp.RegisterActivity
+ com.example.diet.androiddieticianapp.RegisterActivity$1
+com/example/diet/androiddieticianapp/Response.java
+ com.example.diet.androiddieticianapp.Response
+com/example/diet/androiddieticianapp/AIFood/env/Size.java
+ com.example.diet.androiddieticianapp.AIFood.env.Size
+com/example/diet/androiddieticianapp/AIFood/CameraConnectionFragment.java
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$1
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$2
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$3
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$4
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$5
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$CompareSizesByArea
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$ConnectionCallback
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$ErrorDialog
+ com.example.diet.androiddieticianapp.AIFood.CameraConnectionFragment$ErrorDialog$1
+com/example/diet/androiddieticianapp/Obese.java
+ com.example.diet.androiddieticianapp.Obese
+ com.example.diet.androiddieticianapp.Obese$1
+ com.example.diet.androiddieticianapp.Obese$2
+com/example/diet/androiddieticianapp/FeedBackListAdapter.java
+ com.example.diet.androiddieticianapp.FeedBackListAdapter
+ com.example.diet.androiddieticianapp.FeedBackListAdapter$1
+com/example/diet/androiddieticianapp/ResponseListAdapter.java
+ com.example.diet.androiddieticianapp.ResponseListAdapter
+ com.example.diet.androiddieticianapp.ResponseListAdapter$1
+com/example/diet/androiddieticianapp/ForgotPassword.java
+ com.example.diet.androiddieticianapp.ForgotPassword
+ com.example.diet.androiddieticianapp.ForgotPassword$1
+com/example/diet/androiddieticianapp/ViewFoodListAdapter.java
+ com.example.diet.androiddieticianapp.ViewFoodListAdapter
+ com.example.diet.androiddieticianapp.ViewFoodListAdapter$1
+com/example/diet/androiddieticianapp/User.java
+ com.example.diet.androiddieticianapp.User
+com/example/diet/androiddieticianapp/Food.java
+ com.example.diet.androiddieticianapp.Food
+com/example/diet/androiddieticianapp/ViewFoodActivity.java
+ com.example.diet.androiddieticianapp.ViewFoodActivity
+com/example/diet/androiddieticianapp/BuildConfig.java
+ com.example.diet.androiddieticianapp.BuildConfig
+com/example/diet/androiddieticianapp/AIFood/customview/RecognitionScoreView.java
+ com.example.diet.androiddieticianapp.AIFood.customview.RecognitionScoreView
+com/example/diet/androiddieticianapp/AIFood/tflite/Classifier.java
+ com.example.diet.androiddieticianapp.AIFood.tflite.Classifier
+ com.example.diet.androiddieticianapp.AIFood.tflite.Classifier$Recognition
+com/example/diet/androiddieticianapp/AIFood/DetectorActivity.java
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity$1
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity$2
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity$2$1
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity$2$2
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity$3
+ com.example.diet.androiddieticianapp.AIFood.DetectorActivity$DetectorMode
+com/example/diet/androiddieticianapp/FeedBack.java
+ com.example.diet.androiddieticianapp.FeedBack
+com/example/diet/androiddieticianapp/AIFood/LegacyCameraConnectionFragment.java
+ com.example.diet.androiddieticianapp.AIFood.LegacyCameraConnectionFragment
+ com.example.diet.androiddieticianapp.AIFood.LegacyCameraConnectionFragment$1
+com/example/diet/androiddieticianapp/ImageFilePath.java
+ com.example.diet.androiddieticianapp.ImageFilePath
+com/example/diet/androiddieticianapp/AIFood/tflite/TFLiteObjectDetectionAPIModel.java
+ com.example.diet.androiddieticianapp.AIFood.tflite.TFLiteObjectDetectionAPIModel
+com/example/diet/androiddieticianapp/UserListAdapter.java
+ com.example.diet.androiddieticianapp.UserListAdapter
+ com.example.diet.androiddieticianapp.UserListAdapter$1
+com/example/diet/androiddieticianapp/DietPlan.java
+ com.example.diet.androiddieticianapp.DietPlan
+ com.example.diet.androiddieticianapp.DietPlan$1
+ com.example.diet.androiddieticianapp.DietPlan$2
+com/example/diet/androiddieticianapp/NormalWeight.java
+ com.example.diet.androiddieticianapp.NormalWeight
+ com.example.diet.androiddieticianapp.NormalWeight$1
+ com.example.diet.androiddieticianapp.NormalWeight$2
+com/example/diet/androiddieticianapp/AIFood/customview/OverlayView.java
+ com.example.diet.androiddieticianapp.AIFood.customview.OverlayView
+ com.example.diet.androiddieticianapp.AIFood.customview.OverlayView$DrawCallback
+com/example/diet/androiddieticianapp/AIFood/env/ImageUtils.java
+ com.example.diet.androiddieticianapp.AIFood.env.ImageUtils
+com/example/diet/androiddieticianapp/fooditemupdate.java
+ com.example.diet.androiddieticianapp.fooditemupdate
+ com.example.diet.androiddieticianapp.fooditemupdate$1
+ com.example.diet.androiddieticianapp.fooditemupdate$2
+ com.example.diet.androiddieticianapp.fooditemupdate$3
+ com.example.diet.androiddieticianapp.fooditemupdate$4
+ com.example.diet.androiddieticianapp.fooditemupdate$4$1
+ com.example.diet.androiddieticianapp.fooditemupdate$4$2

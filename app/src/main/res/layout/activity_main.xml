@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:columnCount="10"
+    android:rowCount="50"
+    tools:context="com.example.diet.androiddieticianapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/circularlayout"
+            android:ems="10"
+            android:textColor="#000000"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/circularlayout"
+            android:ems="10"
+            android:hint="Password"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:padding="10dp" />
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/editText"
+        android:hint="Weight(In Kg)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:background="@drawable/circularlayout"
+        android:ems="10" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/editText2"
+            android:padding="10dp"
+            android:hint="Height(ft)"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circularlayout"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_margin="10dp"
+            android:hint="Inches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:background="@drawable/circularlayout"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editText4"
+        android:padding="10dp"
+        android:hint="Age"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circularlayout"
+        android:ems="10"
+        android:inputType="number" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Gender"
+                android:textSize="20dp"
+                android:textColorHint="@color/black"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:checked="false"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:checked="true"
+                    android:text="Male" />
+
+            </RadioGroup>
+
+
+        </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="24"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="Activities:" />
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_row="24"
+            android:layout_column="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/circularlayout"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="28"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="1. No Exercise" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_row="28"
+            android:layout_column="1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:text="2. Light Exercise(1-3 days)" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_row="29"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:text="3. Moderate Exercise(3-5days/week)" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_row="29"
+            android:layout_column="1"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="4. Hard Exercise (6-7 days/week" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_row="30"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:text="5. Hard Exercise / 2x training" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="29"
+            android:layout_column="0">
+
+
+        </RadioGroup>
+    </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_row="32"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_column="0"
+            android:background="@drawable/circularlayout"
+            android:width="10dp"
+            android:text="CLEAR" />
+
+            <Button
+                android:id="@+id/buttonupdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="32"
+                android:layout_column="2"
+                android:background="@drawable/circularlayout"
+                android:width="10dp"
+                android:paddingLeft="10dp"
+                android:layout_margin="10dp"
+                android:text="Update" />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="BMI Level :"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_row="36"
+                android:layout_column="1"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="42"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="BMR Level: "
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_row="42"
+                android:layout_column="1"
+                android:layout_marginLeft="20dp"
+
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="46"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:text="Calories required : "
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_row="46"
+                android:layout_column="1"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/circularlayout"
+                android:text="COMPUTE" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="" />
+
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:background="@drawable/circularlayout"
+                android:text="Get Diet Plan" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</GridLayout>

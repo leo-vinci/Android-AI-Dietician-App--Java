@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Send feedback" />
+    <item
+        android:id="@+id/response"
+        android:title="View Response" />
+    <item
+        android:id="@+id/log_out"
+        android:title="Log Out" />
+
+</menu>

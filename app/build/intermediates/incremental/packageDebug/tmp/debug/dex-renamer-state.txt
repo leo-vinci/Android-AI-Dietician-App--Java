@@ -1,0 +1,4 @@
+#Tue Feb 07 12:49:06 NPT 2023
+base.0=D\:\\Final year project\\App\\DieticianApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
